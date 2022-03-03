@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(210, 46%, 95%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+.container {
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  width: 1300px;
+}
+@media (max-width: 1015px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0;
+  }
+  .container .profile1 {
+    min-height: 400px;
+    width: 400px;
+    width: 325px;
+    margin: 25px;
+  }
+  .container .profile2 {
+    min-height: 400px;
+    width: 400px;
+    width: 325px;
+    margin: 25px;
+  }
+  .container .profile3 {
+    width: 400px;
+    min-height: 400px;
+    width: 325px;
+    margin: 25px;
+  }
+  .container .profile4 {
+    width: 400px;
+    min-height: 400px;
+    width: 325px;
+    margin: 25px;
+  }
+  .container .profile5 {
+    width: 400px;
+    min-height: 400px;
+    width: 325px;
+    margin: 25px;
+  }
+}
+
+.profile1 {
+  grid-column: span 2;
+  background-color: hsl(263, 55%, 52%);
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.profile2 {
+  background-color: hsl(217, 19%, 35%);
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.profile3 {
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  grid-row: span 2;
+  width: 300px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.profile4 {
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.profile5 {
+  grid-column: span 2;
+  background-color: hsl(219, 29%, 14%);
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.container h2 {
+  color: hsl(210, 46%, 95%);
+  font-weight: 600;
+  margin: 10px 0;
+}
+.profile3 h2 {
+  color: hsl(217, 19%, 35%);
+}
+
+.profile4 h2 {
+  color: hsl(217, 19%, 35%);
+}
+
+.container p {
+  color: hsl(218, 16%, 57%);
+}
+
+.container img {
+  width: 50px;
+  display: inline;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
